@@ -1,0 +1,145 @@
+/*nav bar*/
+#main-menu li {
+    padding: 0px 33px 0px 33px;
+}
+
+.featured-text p {
+    text-align: center; 
+}
+
+.services-block {
+    display: block;
+    margin: 0 8px 10px 0;
+    text-align: left;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    border-top: 1px solid #5b8666;
+    border-left: 1px solid #5b8666;
+    border-right: 1px solid #324938;
+    border-bottom: 1px solid #324938;
+    background-color: #4b6d54;
+    background-image: -moz-linear-gradient(top, #5b8666, #324938);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5b8666), to(#324938));
+    background-image: -webkit-linear-gradient(top, #5b8666, #324938);
+    background-image: -o-linear-gradient(top, #5b8666, #324938);
+    background-image: linear-gradient(to bottom, #5b8666, #324938);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5b8666', endColorstr='#ff324938', GradientType=0);
+    -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+
+}
+
+/*.services-block a span {
+    width: 220px;
+    height: 45px;
+    left: 45px;
+    padding: 10px 5px 11px;
+    text-align: center;
+    color: #ffffff;
+}*/
+
+.services-block a {
+    display: block;
+    padding: 0 0 0 40px;
+    line-height: 1.4;
+    width: 175px;
+    height: 65px;
+    font-weight: 600;
+    background: transparent;
+    background-size: 30px;
+    position: relative;
+    font-size: 11px;
+    color: #ffffff;
+    -webkit-transition: background-color 0.25s ease-out;
+    -moz-transition: background-color 0.25s ease-out;
+    -o-transition: background-color 0.25s ease-out;
+    transition: background-color 0.25s ease-out;
+}
+
+.services-block a span {
+    display: table-cell;
+    vertical-align: middle;
+    width: 220px;
+    height: 65px;
+    padding: 0 5px;
+    text-align: center;
+    color: #ffffff;
+    border-left: 1px solid #47674f;
+    text-shadow: -1px -1px 0 #324938;
+    -webkit-border-radius: 0 8px 8px 0;
+    -moz-border-radius: 0 8px 8px 0;
+    border-radius: 0 8px 8px 0;
+    -webkit-transition: background-color 0.25s ease-out;
+    -moz-transition: background-color 0.25s ease-out;
+    -o-transition: background-color 0.25s ease-out;
+    transition: background-color 0.25s ease-out;
+}
+
+.services-block a.icon-home {
+    background: rgba(0, 0, 0, 0) url("images/icons/01.Home.png") no-repeat 5px center;
+    background-position-x: 5px;
+    background-position-y: 50%;
+    background-size: 30px;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(0, 0, 0, 0);
+    background-size: 30px;
+}
+
+.services-block a.icon-notebook {
+    background: rgba(0, 0, 0, 0) url("images/icons/11.Notebook.png") no-repeat 5px center;
+    background-position-x: 5px;
+    background-position-y: 50%;
+    background-size: 30px;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(0, 0, 0, 0);
+    background-size: 30px;
+}
+
+.services-block a.icon-clock {
+    background: rgba(0, 0, 0, 0) url("images/icons/35.Alarm-Clock.png") no-repeat 5px center;
+    background-position-x: 5px;
+    background-position-y: 50%;
+    background-size: 30px;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(0, 0, 0, 0);
+    background-size: 30px;
+}
+
+#block-block-3 {
+    background-color: transparent;
+}
+
+.node h2.title {
+    font-size: 18px;
+}
+
+#sidebar .block > h2 {
+    text-align: center;
+    font-size: 22px;
+    margin: 0 -0.5em 1em;
+}
+
+#footer-area .block  {
+        background: transparent;
+        border-bottom: none;
+
+}
+
+#footer-block-wrap h2 {
+    text-align: center;
+}

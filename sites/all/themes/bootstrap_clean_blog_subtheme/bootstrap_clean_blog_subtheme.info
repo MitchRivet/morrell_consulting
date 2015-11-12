@@ -1,0 +1,5 @@
+name = Morrell Consulting subtheme
+description = subtheme of clean blog
+base theme = bootstrap_clean_blog
+core = 7.x
+stylesheets[all][] = style.css

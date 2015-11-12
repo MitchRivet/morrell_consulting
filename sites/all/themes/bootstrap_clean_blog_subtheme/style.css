@@ -1,0 +1,30 @@
+/*#block-block-1 {
+    font-style: italic;
+}*/
+
+.intro-header {
+    background-image: url('assets/psu-park-blocks.jpg');
+}
+
+/*.meta {
+    display: hidden;
+}*/
+
+.post-heading {
+    text-align: center;
+}
+
+.field-item {
+    text-align: center;
+}
+
+.post-title {
+    text-align: center;
+}
+
+#main-menu > ul.menu li {
+  border-right: 1px solid #FFFFFF;
+  float: left;
+  position: relative;
+  list-style: none outside none;
+}
